@@ -5,6 +5,7 @@
   "author": "Veljko Blagojevic - Wekios",
   "scripts": {
     "prepare": "husky install",
+    "preinstall": "node scripts/check-node-version",
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
