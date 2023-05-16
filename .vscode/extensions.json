@@ -4,5 +4,9 @@
     "esbenp.prettier-vscode",
     "dsznajder.es7-react-js-snippets",
     "mariusalchimavicius.json-to-ts",
+    "ms-azuretools.vscode-docker",
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    "bradlc.vscode-tailwindcss"
   ]
 }
