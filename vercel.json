@@ -1,4 +1,18 @@
 {
-  "framework": "storybook",
-  "buildCommand": "storybook build"
+  "builds": [
+    {
+      "src": "storybook-static/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/storybook/(.*)",
+      "dest": "/storybook-static/$1"
+    }
+  ]
 }
